@@ -417,6 +417,7 @@ body {
 
 .footer-elements {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-left {

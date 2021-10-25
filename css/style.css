@@ -168,19 +168,9 @@ body {
   color: var(--accent-color);
 }
 
-.header-cont-item {
-  display: flex;
-  align-items: center;
-}
-
 .mail-icon {
   fill: var(--second-text-color);
   margin-right: 10px;
-}
-
-.mail:hover .mail-icon,
-.mail:focus .mail-icon {
-  fill: var(--accent-color);
 }
 
 .tell-icon {
@@ -188,8 +178,10 @@ body {
   margin-right: 10px;
 }
 
-.tell:hover .tell-icon,
-.tell:focus .tell-icon {
+.header-right:hover .mail-icon,
+.header-right:focus .mail-icon,
+.header-right:hover .tell-icon,
+.header-right:focus .tell-icon {
   fill: var(--accent-color);
 }
 
@@ -405,24 +397,29 @@ body {
   margin-left: 30px;
   height: 92px;
   background-color: var(--primary-background-color);
-  border-radius: 4px;
-  border: 1px solid #afb1b8;
+}
+
+.client-link {
+  height: 100%;
+  width: 100%;
   align-items: center;
   justify-content: center;
   display: flex;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
 }
 
 .client-img-icon {
   fill: var(--primary-icon-color);
 }
 
-.client-item:hover,
-.client-item:focus {
+.client-link:hover,
+.client-link:focus {
   border-color: var(--accent-color);
 }
 
-.client-item:hover .client-img-icon,
-.client-item:focus .client-img-icon {
+.client-link:hover .client-img-icon,
+.client-link:focus .client-img-icon {
   fill: var(--accent-color);
 }
 

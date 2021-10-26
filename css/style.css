@@ -191,7 +191,6 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   width: 1600px;
-  height: 600px;
   /* padding-left: 15px;
   padding-right: 15px; */
   margin: 0 auto;
@@ -202,7 +201,7 @@ body {
     url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .hero-title {

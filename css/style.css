@@ -201,7 +201,7 @@ body {
     ),
     url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: center;
   background-size: contain;
 }
 

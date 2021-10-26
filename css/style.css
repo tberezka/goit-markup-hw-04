@@ -191,8 +191,9 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   width: 1600px;
-  padding-left: 15px;
-  padding-right: 15px;
+  height: 600px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
   margin: 0 auto;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -200,7 +201,7 @@ body {
     ),
     url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left top;
   background-size: contain;
 }
 
